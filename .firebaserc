@@ -1,0 +1,42 @@
+{
+  "projects": {
+    "master": "aim-high-fitness",
+    "prod": "aim-high-fitness"
+  },
+  "ci": {
+    "createConfig": {
+      "master": {
+        "version": "${npm_package_version}",
+        "env": "development",
+        "firebase": {
+          "apiKey": "AIzaSyAAj198ghkrsV0xl2sgCVnLiqXAjZs3N-Y",
+          "authDomain": "aim-high-fitness.firebaseapp.com",
+          "databaseURL": "https://aim-high-fitness.firebaseio.com",
+          "projectId": "aim-high-fitness",
+          "storageBucket": "aim-high-fitness.appspot.com"
+        },
+        "reduxFirebase": {
+          "userProfile": "users",
+          "enableLogging": false,
+          "updateProfileOnLogin": false
+        }
+      },
+      "prod": {
+        "version": "${npm_package_version}",
+        "env": "production",
+        "firebase": {
+          "apiKey": "AIzaSyAAj198ghkrsV0xl2sgCVnLiqXAjZs3N-Y",
+          "authDomain": "aim-high-fitness.firebaseapp.com",
+          "databaseURL": "https://aim-high-fitness.firebaseio.com",
+          "projectId": "aim-high-fitness",
+          "storageBucket": "aim-high-fitness.appspot.com"
+        },
+        "reduxFirebase": {
+          "userProfile": "users",
+          "enableLogging": false,
+          "updateProfileOnLogin": false
+        }
+      }
+    }
+  }
+}
