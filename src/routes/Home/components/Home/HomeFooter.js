@@ -1,6 +1,6 @@
 import React from 'react'
 import { Footer } from 'react-materialize'
-import styled from 'styled-components'
+// import styled from 'styled-components'
 
 // const FooterStyle = styled.div`
 //   background-color: black;

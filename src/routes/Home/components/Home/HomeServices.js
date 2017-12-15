@@ -2,26 +2,26 @@ import React from 'react'
 import styled from 'styled-components'
 import facility from '../../../../assets/facility3.svg'
 
-const style = {
-  mainDiv: {},
-  headerMD: {
-    margin: 'auto',
-    width: '20%',
-    padding: 24,
-    marginTop: 25,
-    textAlign: 'center'
-  },
-  secHeader: {},
-  image: {
-    margin: 'auto',
-    paddingLeft: '140px'
-  },
-  heroImage: {
-    margin: 'auto',
-    width: '100%',
-    padding: 50
-  }
-}
+// const style = {
+//   mainDiv: {},
+//   headerMD: {
+//     margin: 'auto',
+//     width: '20%',
+//     padding: 24,
+//     marginTop: 25,
+//     textAlign: 'center'
+//   },
+//   secHeader: {},
+//   image: {
+//     margin: 'auto',
+//     paddingLeft: '140px'
+//   },
+//   heroImage: {
+//     margin: 'auto',
+//     width: '100%',
+//     padding: 50
+//   }
+// }
 
 const Services = styled.p`
   font-family: 'Oswald', sans-serif;
