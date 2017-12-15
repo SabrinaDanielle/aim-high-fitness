@@ -20,7 +20,7 @@ const calPic = () => {
 export const HomeAbout = () => (
   <div className="row">
     <div className="col s4">
-      <Paper style={style} zDepth={5} rounded={false} children={calPic} />
+      <Paper style={style} zDepth={5} rounded={false} Children={calPic} />
       <image src={Calvin} />
     </div>
     <div className="col s8">
