@@ -9,7 +9,7 @@ const style = {
     width: '20%',
     padding: 24,
     marginTop: 25,
-    textAlign: 'center',
+    textAlign: 'center'
   },
   secHeader: {},
   image: {
@@ -60,7 +60,7 @@ export const HomeServices = () => {
               velit, sed quia non numquam eius modi tempora incidunt ut labore
               et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima
               veniam, quis nostrum exercitationem ullam corporis suscipit
-              laboriosam, nisi ut aliquid ex ea commodi consequatur? 
+              laboriosam, nisi ut aliquid ex ea commodi consequatur?
             </Services>
           </div>
           <div className="col s4">
@@ -92,7 +92,7 @@ export const HomeServices = () => {
               velit, sed quia non numquam eius modi tempora incidunt ut labore
               et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima
               veniam, quis nostrum exercitationem ullam corporis suscipit
-              laboriosam, nisi ut aliquid ex ea commodi consequatur? 
+              laboriosam, nisi ut aliquid ex ea commodi consequatur?
             </Services>
           </div>
         </div>

@@ -31,7 +31,6 @@ const styles = {
   }
 }
 
-
 const About = styled.div`
   display: flex;
   flex-direction: column;

@@ -2,18 +2,18 @@ import React from 'react'
 import { Footer } from 'react-materialize'
 import styled from 'styled-components'
 
-const FooterStyle = styled.div`
-  background-color: black;
-  margin-top: -20px;
-  margin: auto;
-  align-content: center;
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-`
+// const FooterStyle = styled.div`
+//   background-color: black;
+//   margin-top: -20px;
+//   margin: auto;
+//   align-content: center;
+//   display: flex;
+//   flex-direction: column;
+//   width: 100%;
+//   justify-content: center;
+//   align-items: center;
+//   text-align: center;
+// `
 
 const HomeFooter = () => (
   <Footer className="black center-block">

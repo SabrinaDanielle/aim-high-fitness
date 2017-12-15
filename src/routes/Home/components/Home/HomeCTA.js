@@ -3,7 +3,6 @@ import RaisedButton from 'material-ui/RaisedButton'
 import FontIcon from 'material-ui/FontIcon'
 import { Link } from 'react-router'
 import { paths } from '../../../../constants'
-import { babyPowder } from 'material-ui/styles/colors'
 import styled from 'styled-components'
 
 const styles = {

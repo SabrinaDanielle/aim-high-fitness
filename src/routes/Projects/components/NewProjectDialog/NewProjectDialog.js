@@ -23,7 +23,8 @@ export const NewProjectDialog = ({
     actions={[
       <FlatButton label="Cancel" secondary onTouchTap={onRequestClose} />,
       <FlatButton label="Create" primary onTouchTap={submit} />
-    ]}>
+    ]}
+  >
     <form onSubmit={handleSubmit} className={classes.inputs}>
       <Field
         name="name"
