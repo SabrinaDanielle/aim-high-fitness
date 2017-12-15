@@ -7,11 +7,12 @@ import { CONTACT_PATH, SERVICES_PATH, MERCHANDISE_PATH } from 'constants'
 
 const SubNav = styled.div`
   display: flex;
-  height: 24px;
+  flex-direction: column;
   width: 100%;
   justify-content: center;
   align-items: center;
   background-color: #c63430;
+  text-align: center;
 `
 
 const buttonStyle = {

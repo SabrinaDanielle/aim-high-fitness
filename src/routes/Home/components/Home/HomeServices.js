@@ -1,15 +1,15 @@
 import React from 'react'
 import styled from 'styled-components'
+import facility from '../../../../assets/facility3.svg'
 
 const style = {
   mainDiv: {},
   headerMD: {
     margin: 'auto',
     width: '20%',
-    padding: 88,
+    padding: 24,
     marginTop: 25,
     textAlign: 'center',
-    color: 'teal'
   },
   secHeader: {},
   image: {
@@ -24,19 +24,28 @@ const style = {
 }
 
 const Services = styled.p`
-  color: teal;
+  font-family: 'Oswald', sans-serif;
+  font-size: 2em;
   text-align: justify;
-  padding: 10px;
+  padding: 40px;
 `
 const ServiceHeader = styled.h1`
   text-align: center;
+  text-decoration: underline;
+`
+const ServiceSection = styled.div`
+  background-image: url(${facility});
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-shadow: 3px 3px #000000;
+  margin-bottom: 0px;
 `
 
 export const HomeServices = () => {
   return (
-    <div>
+    <ServiceSection>
       <div>
-        <h3 style={style.headerMD}>Services</h3>
         <div className="row">
           <div className="col s4">
             <ServiceHeader>Personal Training</ServiceHeader>
@@ -51,10 +60,7 @@ export const HomeServices = () => {
               velit, sed quia non numquam eius modi tempora incidunt ut labore
               et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima
               veniam, quis nostrum exercitationem ullam corporis suscipit
-              laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem
-              vel eum iure reprehenderit qui in ea voluptate velit esse quam
-              nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo
-              voluptas nulla pariatur
+              laboriosam, nisi ut aliquid ex ea commodi consequatur? 
             </Services>
           </div>
           <div className="col s4">
@@ -70,10 +76,7 @@ export const HomeServices = () => {
               velit, sed quia non numquam eius modi tempora incidunt ut labore
               et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima
               veniam, quis nostrum exercitationem ullam corporis suscipit
-              laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem
-              vel eum iure reprehenderit qui in ea voluptate velit esse quam
-              nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo
-              voluptas nulla pariatur
+              laboriosam, nisi ut aliquid ex ea commodi consequatur?
             </Services>
           </div>
           <div className="col s4">
@@ -89,15 +92,12 @@ export const HomeServices = () => {
               velit, sed quia non numquam eius modi tempora incidunt ut labore
               et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima
               veniam, quis nostrum exercitationem ullam corporis suscipit
-              laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem
-              vel eum iure reprehenderit qui in ea voluptate velit esse quam
-              nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo
-              voluptas nulla pariatur
+              laboriosam, nisi ut aliquid ex ea commodi consequatur? 
             </Services>
           </div>
         </div>
       </div>
-    </div>
+    </ServiceSection>
   )
 }
 

@@ -7,7 +7,7 @@ import styled from 'styled-components'
 
 const Bungee = styled.div`
   font-family: 'Sirin Stencil', cursive;
-  text-shadow: 2px 2px #ff0000;
+  text-shadow: 2px 2px #000000;
 `
 
 export const HomeSlider = () => (
