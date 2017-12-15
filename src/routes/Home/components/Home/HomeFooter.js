@@ -1,5 +1,5 @@
 import React from 'react'
-import { Footer, Icon, copyrights } from 'react-materialize'
+import { Footer } from 'react-materialize'
 
 const HomeFooter = () => (
   <div className="black">
