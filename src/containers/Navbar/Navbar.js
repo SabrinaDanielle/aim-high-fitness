@@ -99,8 +99,7 @@ export default class Navbar extends Component {
         iconButtonElement={iconButton}
         targetOrigin={{ horizontal: 'right', vertical: 'bottom' }}
         anchorOrigin={{ horizontal: 'right', vertical: 'top' }}
-        animated={false}
-      >
+        animated={false}>
         <MenuItem
           primaryText="Account"
           onTouchTap={() => this.context.router.push(ACCOUNT_PATH)}

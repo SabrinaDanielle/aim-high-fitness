@@ -9,8 +9,7 @@ const reactRouterUrl = 'https://github.com/ReactTraining/react-router'
 export const Home = () => (
   <div
     className={classes.container}
-    style={{ color: Theme.palette.primary2Color }}
-  >
+    style={{ color: Theme.palette.primary2Color }}>
     <div className="flex-row-center">
       <h2>Home Route</h2>
     </div>
@@ -24,8 +23,7 @@ export const Home = () => (
               <a
                 href={reactRouterUrl}
                 target="_blank"
-                rel="noopener noreferrer"
-              >
+                rel="noopener noreferrer">
                 react-router
               </a>
             </span>
@@ -75,8 +73,7 @@ export const Home = () => (
               <a
                 href={reactRouterUrl}
                 target="_blank"
-                rel="noopener noreferrer"
-              >
+                rel="noopener noreferrer">
                 redux-form
               </a>
             </span>
