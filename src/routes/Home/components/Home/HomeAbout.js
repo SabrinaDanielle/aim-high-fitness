@@ -41,12 +41,15 @@ const About = styled.div`
   margin-top: 40px;
   margin: 50px;
   background-color: white;
+  flex-wrap: wrap;
+  flex-flow: row-reverse wrap;
 `
 const AboutHeader = styled.h4``
 
 const AboutParagraph = styled.p`
   font-family: 'Oswald', sans-serif;
-  font-size: 2em;
+  font-size: 2vm;
+  float: right;
 `
 
 const style = {
@@ -58,17 +61,17 @@ const style = {
 }
 
 const calPic = img => {
-  return <img width={300} height={300} src={img} />
+  return <img width={'100%'} height={300} src={img} />
 }
 
 export const HomeAbout = () => (
   <About>
     <div className="row">
-      <div className="col s3" />
-      <div className="col s3">
+      <div className="col s1" />
+      <div className="col s3 align: left">
         <Paper style={style} zDepth={5} children={calPic(Calvin)} />
-        <image src={Calvin} />
       </div>
+      <div className="col 3" />
       <div className="col s3">
         <AboutHeader>About Calvin Jackson</AboutHeader>
         <AboutParagraph>
@@ -89,7 +92,7 @@ export const HomeAbout = () => (
           icon={<FontIcon className="muidocs-icon-custom-github" />}
         />
       </div>
-      <div className="col s3" />
+      <div className="col s1" />
     </div>
   </About>
 )
