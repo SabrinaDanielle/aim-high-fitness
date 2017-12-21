@@ -60,7 +60,7 @@ const HomeCTA = () => (
       />
       <RaisedButton
         onClick={paths.login}
-        label={<Link to={paths.login}>Contact</Link>}
+        label={<Link to={paths.contact}>Contact</Link>}
         labelPosition="before"
         backgroundColor="#D50000"
         secondary

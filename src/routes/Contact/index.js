@@ -11,14 +11,14 @@ export default store => ({
       require => {
         /*  Webpack - use require callback to define
           dependencies for bundling   */
-        const Contact = require('./containers/ContactFormContainer').default
+        const Contact = require('./components/ContactForm').default
 
         /*  Return getComponent   */
         cb(null, Contact)
 
         /* Webpack named bundle   */
       },
-      'Signup'
+      'Contact'
     )
   }
 })
