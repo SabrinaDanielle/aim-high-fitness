@@ -36,11 +36,12 @@ const CTA = styled.div`
   justify-content: center;
   align-items: center;
   text-align: center;
+  padding-bottom: 50px;
 `
 
 const HomeCTA = () => (
   <CTA style={styles.divTop}>
-    <div style={styles.div}>
+    <div className="Section" style={styles.div}>
       <RaisedButton
         onClick={paths.login}
         label={<Link to={paths.login}>Sign-Up</Link>}

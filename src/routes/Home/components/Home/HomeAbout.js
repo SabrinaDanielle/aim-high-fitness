@@ -38,8 +38,7 @@ const About = styled.div`
   justify-content: center;
   align-items: center;
   text-align: justify;
-  margin-top: 40px;
-  margin: 50px;
+  margin: auto;
   background-color: white;
 `
 const AboutHeader = styled.h4``
@@ -47,6 +46,7 @@ const AboutHeader = styled.h4``
 const AboutParagraph = styled.p`
   font-family: 'Oswald', sans-serif;
   font-size: 2em;
+  width: 100%;
 `
 
 const style = {
@@ -62,14 +62,13 @@ const calPic = img => {
 }
 
 export const HomeAbout = () => (
-  <About>
+  <About className="Section container">
     <div className="row">
-      <div className="col s3" />
-      <div className="col s3">
+      <div className="col s12 m6 l4">
         <Paper style={style} zDepth={5} children={calPic(Calvin)} />
         <image src={Calvin} />
       </div>
-      <div className="col s3">
+      <div className="col S12 m6 l8">
         <AboutHeader>About Calvin Jackson</AboutHeader>
         <AboutParagraph>
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -89,7 +88,6 @@ export const HomeAbout = () => (
           icon={<FontIcon className="muidocs-icon-custom-github" />}
         />
       </div>
-      <div className="col s3" />
     </div>
   </About>
 )
