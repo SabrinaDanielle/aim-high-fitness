@@ -37,9 +37,7 @@ const FindMe = styled.div`
   text-align: center;
   padding-bottom: 50px;
 `
-const ironPic = styled.img`
- 
-`
+
 const ContactForm = ({ pristine, submitting, handleSubmit }) => (
   <div>
     <FindMe>
@@ -97,7 +95,10 @@ const ContactForm = ({ pristine, submitting, handleSubmit }) => (
 ContactForm.propTypes = {
   pristine: PropTypes.bool.isRequired, // added by redux-form
   submitting: PropTypes.bool.isRequired, // added by redux-form
-  handleSubmit: PropTypes.func.isRequired // added by redux-form
+  handleSubmit: PropTypes.func.isRequired, // added by redux-form
+  label: PropTypes.any.isRequired,
+  meta: PropTypes.any.isRequired,
+  children:PropTypes.any.isRequired
 }
 
 export default reduxForm({

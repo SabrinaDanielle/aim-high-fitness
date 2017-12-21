@@ -41,15 +41,6 @@ const ServiceSection = styled.div`
   text-shadow: 3px 3px #000000;
   margin-bottom: 0px;
 `
-const ServiceContainer = styled.div`
-  display: flex;
-  lex-direction: column;
-  width: 100%;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding-bottom: 50px;
-`
 
 export const HomeServices = () => {
   return (
